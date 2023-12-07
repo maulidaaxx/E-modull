@@ -698,16 +698,14 @@
                                database mysql
 
 
-                        Relasi tabel aplikasi:
+                        ?Relasi tabel aplikasi:
 
-
-
-
-
-
-
-
-
+                           Masyarakat             Pengaduan            Tanggapan              Petugas
+                         id_masyarakat          id_pengaduan          id_tanggapan        id_petugas
+                         NIK                    tgl_pengaduan         id_pengaduan        nama_petugas
+                         nama                   NIK                   tgl_tanggapan       username
+                         telp                   isi_laporan           tanggapan           password
+                                                                      id_petugas          telp
 
 
 
@@ -715,8 +713,8 @@
                         Tabel Masyarakat (Id_masyarakat berupa auto increment)
 
                          id_masyarakat            NIK                  nama                 telp
-
                          1                3603176502001122   Audina Damayanti         088112233445
+
                          2                3603176502007788  Alfi Filsafalasafi        088562907633
 
                          3                3603176502007676  Muhammad                  088562904059
@@ -728,25 +726,27 @@
                          id_pengaduan  tgl_pengaduan                NIK               isi_laporan
 
                          1                20-05-2023        3603176502001122   Izin melaporkan,
-                                                                                  aspal di sepanjang
 
+                                                                                  aspal di sepanjang
                                                                                   Ki Ageng Gribig
 
                                                                                   banyak berlubang,
                                                                                   bahaya untuk
 
                                                                                   pengguna jalan
-                                                                                  utamanya malam
+
+
+
+
+
+
+
+
+               2]]></page><page Index="13"><![CDATA[utamanya malam
 
                                                                                   hari. Mohon
 
-
-
-
-
-
-               2]]></page><page Index="13"><![CDATA[perhatian dinas
-
+                                                                                  perhatian dinas
                                                                                   terkait untuk
 
                                                                                   diperbaiki
@@ -756,13 +756,13 @@
                                                                                   daerah Arjosari ada
 
                                                                                   yang mati, mohon
-                                                                                  segera diperbaiki
 
+                                                                                  segera diperbaiki
                                                                                   karena bahaya untuk
 
                                                                                   pengendara jalan
-                         3                30-07-2023        3603176502007676  Bapak-bapak dinas
 
+                         3                30-07-2023        3603176502007676  Bapak-bapak dinas
                                                                                   sosial, tolong dong
 
                                                                                   ditertibkan
@@ -772,23 +772,20 @@
                                                                                   perempatan Sulfat,
 
                                                                                   mulai meresahkan
-                                                                                  karena ada unsur
 
+                                                                                  karena ada unsur
                                                                                   pemaksaan
 
                          4                31-10-2023        3603176502005342   Rekayasa lalu lintas
                                                                                   di kayutangan
 
                                                                                   harusnya dikaji
-                                                                                  ulang pak, banyak
 
+                                                                                  ulang pak, banyak
                                                                                   titik jalan lain yang
 
                                                                                   macet selain
                                                                                   kayutangan
-
-
-
 
 
 
@@ -811,13 +808,13 @@
                                                                            akan segera
 
                                                                            kami tindak
-                                                                           lanjuti.
 
+                                                                           lanjuti.
                          2               2                03-11-2023       Terima kasih    1
 
                                                                            atas
-                                                                           laporannya,
 
+                                                                           laporannya,
                                                                            akan segera
 
                                                                            kami
@@ -827,13 +824,13 @@
                          3               3                03-11-2023       Siap, terima    1
 
                                                                            kasih atas
-                                                                           informasinya,
 
+                                                                           informasinya,
                                                                            segera kami
 
                                                                            tindak lanjuti.
-                         4               4                03-11-2023       Terima kasih    1
 
+                         4               4                03-11-2023       Terima kasih    1
                                                                            atas
 
                                                                            laporannya,
@@ -843,9 +840,6 @@
                                                                            pihak
 
                                                                            terkait.
-
-
-
 
 
 
@@ -866,8 +860,8 @@
                         Contoh Desain Layout
 
                         Aplikasi Pelaporan Pengaduan Masyarakat berbasis Web
-                            Desain dasar ini sebagai referensi dimana peserta ujian dapat menambah desain
 
+                            Desain dasar ini sebagai referensi dimana peserta ujian dapat menambah desain
                         sesuai  kebutuhan  berdasarkan  kreativitas  agar  aplikasi  yang  dibangun  dapat
 
                         berfungsi maksimal.
@@ -916,14 +910,11 @@
 
 
 
-
-
-
                5]]></page><page Index="16"><![CDATA[2.  Halaman pengaduan (diisi oleh masyarakat dengan klik tombol LAPORAN
 
                             MASYARAKAT tanpa login). Field NIK, nama dan telp disimpan ke tabel
-                            masyarakat,  sedangkan  field  NIK,  tgl_pengaduan,  isi_laporan  disimpan  ke
 
+                            masyarakat,  sedangkan  field  NIK,  tgl_pengaduan,  isi_laporan  disimpan  ke
                             tabel pengaduan (id pengaduan di tabel pengaduan adalah auto increment).
 
 
@@ -962,8 +953,8 @@
 
                                    PENGADUAN LAINNYA
 
-                                        Tanggal Pengaduan                    Isi Laporan Pengaduan
 
+                                        Tanggal Pengaduan                    Isi Laporan Pengaduan
                                  3 – 1 - 2023                        Ijin melaporkan, aspal di sepanjang
 
                                                                      Ki Ageng Gribig banyak berlubang,
@@ -973,11 +964,6 @@
                                                                      perhatian dinas terkait untuk
 
                                                                      diperbaiki.
-
-
-
-
-
 
 
 
@@ -1172,10 +1158,8 @@
 
 
 
-
-
-
-
+                           Dari kisi-kisi soal praktik kejuruan di atas, buatlah sebuah proyek Aplikasi
+                           Pengaduan Pelaporan Masyarakat dan laporan hasil proyek tersebut!
 
 
 
@@ -1191,11 +1175,11 @@
 
 
                            Sebelum memulai pengalaman pembelajaran ini, marilah kita evaluasi sejauh
-
                             mana pemahaman Anda terhadap materi yang akan kami bahas. Siap untuk
-                          mengukur diri dan memulai perjalanan pembelajaran yang menarik? Jawablah
 
+                          mengukur diri dan memulai perjalanan pembelajaran yang menarik? Jawablah
                              pertanyaan-pertanyaan pre-test dengan sebaik-baiknya yang dapat diakses
+
                                             melalui Link atau QR code dibawah ini.
 
 
@@ -1204,11 +1188,11 @@
 
 
 
-                                                  LINK SOAL POST-TEST
-
+                                                   LINK SOAL PRE-TEST
 
 
                                                                Click Here!
+
 
 
 
@@ -1228,9 +1212,6 @@
 
 
                         =
-
-
-
 
 
 
